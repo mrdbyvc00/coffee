@@ -21,7 +21,7 @@ li{
 
  .wrapper{
     height: 3300px;
-    background-color: cyan;
+    background-color: #FFFFFF;
 
 } 
 
@@ -30,7 +30,7 @@ li{
     height: 3230px;
     margin: auto;
     padding: 20px 0;
-    background-color: #FEFCF7;
+    background-color: whitesmoke;
 }
 
 .container2{
@@ -38,7 +38,7 @@ li{
     height: 3000px;
     margin: auto;
     padding: 20px 0;
-    background-color: #FEFCF7;   
+    background-color: whitesmoke;
 }
 
 .navbar , .navbar_list{
@@ -54,6 +54,34 @@ li{
 gap: 50px;
 }
 
+.navbar_logo2{
+     position: relative;
+    left: 40px;
+    top: 20px;
+}
+
+.navbar_list2{
+    position: relative;
+    padding-left: 600px;
+    right: 50px;
+gap: 50px;   
+
+
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    right: 4900px;
+    top: 20px;
+}
+
+.navbar2{
+    position: relative;
+     display: flex;
+    align-items: center;
+    left: 2430px;
+    justify-content: space-between;
+}
 
 .navbar_logo{
     position: relative;
@@ -1456,9 +1484,6 @@ transition: all 0.3s linear;
 }
 
 
-.footer_item3{
-
-}
 
 .footer_link3:hover{
     color: #FFFFFF;
